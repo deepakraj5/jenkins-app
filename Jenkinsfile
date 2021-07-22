@@ -7,7 +7,7 @@ pipeline {
 		
 		stage('restart the pm2 server') {
 			steps {
-				sh "pm2 start index.js --name app"
+				sh "pm2 restart app"
 			}
 		}
 
