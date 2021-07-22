@@ -4,7 +4,7 @@ pipeline {
 	
 	stages {
 		
-		stage('restart the pm2 server') {
+		stage('install the package') {
 			steps {
 				sh "npm i"
 			}
