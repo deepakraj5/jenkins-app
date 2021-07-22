@@ -10,7 +10,7 @@ app.use(express.json())
 
 app.get('/', (req, res) => {
 
-	res.send('app running')
+	res.send('app running jenkins pm2')
 
 })
 
